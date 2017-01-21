@@ -1,0 +1,22 @@
+{
+  "name": "fe_prototype",
+  "description": "fe_prototype",
+  "main": "gulpfiles.js",
+  "authors": [
+    "FEer luleixia"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "fe_prototype_bower"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "jquery": "^2.1.4",
+    "bootstrap": "^3.3.7"
+  }
+}

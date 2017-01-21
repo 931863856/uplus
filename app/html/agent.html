@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+
+    <title>优家良品</title>
+    <!-- build:css ../css/combineCss/com_head_cb.css -->
+    @@include('common/com_head.html')
+    <!-- endbuild -->
+</head>
+<body>
+@@include('common/com_nav.html')
+<div class="mtfixed"></div>
+<div id="goodcover"></div>
+<div class="bg-login" style="background-image:url(../img/bg_apply.jpg)"></div>
+<div class="container">
+    <div class="reg-wrapper">
+        <h2>欢迎成为我们的伙伴</h2>
+        <div class="fields">
+            <form id="main-form">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div>
+                            <input type="text" class="text large" name="name" placeholder="姓名">
+                            <div class="error"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <input type="text" class="text large" name="company" id="company" placeholder="公司名称">
+                        <div class="error"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <input type="text" class="text large" name="job" id="" placeholder="职位">
+                        <div class="error"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <input type="text" class="text large input-must" name="site" id="" placeholder="站点名称">
+                        <div class="error"></div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-xs-12">
+                        <input type="text" class="text large" name="industry" id="" placeholder="所在行业">
+                        <div class="error"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4 col-xs-12">
+                        <div class="form-group">
+                            <select class="form-control input-sm" name="province">
+                                <option value="">省份/直辖市</option>
+                                <option value="广东">广东</option>
+                            </select>
+                        <div class="error"></div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-xs-12">
+                        <div class="form-group">
+                            <select class="form-control input-sm" name="town">
+                                <option value="">市/县</option>
+                                <option value="深圳">深圳</option>
+                            </select>
+                        <div class="error"></div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-xs-12">
+                        <div class="form-group">
+                            <select class="form-control input-sm" name="block">
+                                <option value="">镇/区</option>
+                                <option value="南山">南山</option>
+                            </select>
+                        <div class="error"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="button large dark submit" id="submit">提交</div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+    @@include('common/com_foot.html')
+    @@include('common/com_nav_js.html')
+    <script src="../js/reg-c03b802b52.js"></script>
+</script>
+</body>
+</html>

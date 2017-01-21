@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+
+    <title>优家良品</title>
+    <!-- build:css ../css/combineCss/com_head_cb.css -->
+    @@include('common/com_head.html')
+    <!-- endbuild -->
+</head>
+<body class="in-login">
+<div id="goodcover"></div>
+@@include('common/com_nav.html')
+<div class="mtfixed"></div>
+<div class="container" style="top:0">
+    <div class="row bgf">
+        <div class="col-xs-12">
+            <h2 class="c3 text-center mb40 hidden-xs">为了打造属于您的专属APP，需要完善一下信息哦~</h2>
+            <h3 class="c3 text-center mt40 visible-xs-block">为了打造属于您的专属APP，需要完善一下信息哦~</h3>
+        </div>
+    </div>
+    <div class="row bgf" style="margin-top: 3em">
+        <div class="col-md-6 col-sm-6 col-xs-12">
+            <form  class="form-horizontal" action="">
+                <div class="row pr10 pl10 pt10">
+                    <div class="form-group">
+                        <label class="col-xs-3 control-label lh24 text-right">APP名称</label>
+                        <div class="col-xs-6">
+                            <input type="text" class="form-control input-lg border-radius0 f14" placeholder="最佳位2~6个字">
+                        </div>
+
+                    </div>
+                </div>
+                <div class="row pr10 pl10 pt10">
+                    <div class="form-group m0">
+                        <label class="col-xs-3 control-label lh24 text-right">LOGO</label>
+                        <div class="col-xs-9 in-up-img">
+                            <input type="file" class="in-logo">
+                            <img class="vab" src="../img/logo.png" alt=""/>
+                            <p class="c9">建议：PNG格式</p>
+                        </div>
+                    </div>
+                </div>
+                    <div class="row pr10 pl10 pt10">
+                        <div class="form-group m0">
+                            <label class="col-xs-3 control-label lh24 text-right">ICON</label>
+                            <div class="col-xs-9 p0 in-up-img">
+                                <input type="file" class="in-logo">
+                                <img class="vab" src="../img/logo.png" alt=""/>
+                                <p class="c9">建议：1024px*1024px   PNG格式</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row pr10 pl10 pt10">
+                        <div class="form-group m0">
+                            <label class="col-xs-3 control-label lh24 text-right">启动页</label>
+                            <div class="col-xs-9 p0 ">
+                                <div class="in-up-img">
+                                    <input type="file" class="in-logo">
+                                    <img class="vab" src="../img/logo.png" alt=""/>
+                                    <p class="c9">建议：2208px*2208px   3~5张   PNG格式</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row pr10 pl10 pt10">
+                        <div class="form-group m0">
+                            <label class="col-xs-3 control-label lh24 text-right">简介</label>
+                            <div class="col-xs-7">
+                                <textarea name="" class="form-control border-radius0"   rows="6"></textarea>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="form-group">
+                            <div class="col-xs-3"></div>
+                            <div class="col-xs-7">
+                                <div class="mt50 mb30">
+                                    <div class="button large dark col-xs-6 col-xs-offset-3 clickMe1" id="submit">完成</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </form>
+
+        </div>
+        <div class="col-md-4 col-sm-6 hidden-xs col-md-offset-2 ">
+            <img style="max-height: 900px" src="../img/info.png" alt=""/>
+        </div>
+    </div>
+</div>
+<div id="goodcover">
+    <div class="step1-box col-md-4 col-md-offset-4 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">
+        <div class="close1"><a href="javascript:void(0)" class="closebt">×</a>
+        </div>
+        <h4 class="text-center">我们会以短信的形式通知您APP完成结果</h4><h4 class="text-center">请您耐心等待</h4>
+    </div>
+</div>
+    @@include('common/com_foot.html')
+    @@include('common/com_nav_js.html')
+</body>
+</html>

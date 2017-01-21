@@ -1,0 +1,16 @@
+<script src="../vendor/jquery/dist/jquery.min.js"></script>
+<script>
+    $(function(){
+        //导航
+         $(".iconfont").click(function(){
+            $(".nav-ul").toggle();
+            $('#goodcover').toggle();
+            $("body").css("overflow-y","hidden");
+        })
+        $('#goodcover').click(function() {
+            $('.nav-ul').hide();
+            $('#goodcover').hide();
+            $("body").css("overflow-y","scroll")
+        });
+    })
+</script>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<!-- saved from url=(0018)http://mubu.io/reg -->
+<html lang="zh-CN">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <meta name="renderer" content="webkit">
+    <!-- build:css ../css/combineCss/com_head_cb.css -->
+    @@include('common/com_head.html')
+    <!-- endbuild -->
+</head>
+<body>
+<div class="bg-login"></div>
+<div id="goodcover"></div>
+@@include('common/com_nav.html')
+<div class="mtfixed"></div>
+<div class="container">
+    <div class="reg-wrapper">
+        <h2 class="text-center">为电商而生</h2>
+        <div class="login-box"></div>
+        <div class="fields">
+            <form id="main-form">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <input type="text" class="text large" name="name" placeholder="昵称">
+                        <div class="error"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <input type="text" class="text large" name="phone" id="field-phone" placeholder="手机号码(必填)">
+                        <div class="error"></div>
+                    </div>
+                </div>
+                <div class="row verify">
+                    <div class="col-xs-12">
+                        <input type="text" class="text large" name="code" placeholder="验证码(必填)">
+                        <div class="button large dark" id="fetch-code"style="height: 50px; line-height: 50px;">获取验证码</div>
+                        <div class="error"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <img src="../img/test.jpg" width="26%" height="50px;">
+                        <input type="text" class="text large pull-right" name="code" placeholder="输入图形验证码" style="width: 70%!important;">
+                        <div class="error"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <input type="password" class="text large" name="password" placeholder="设置密码(6-20位字符)">
+                        <div class="error"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <input type="password" class="text large" name="confirm" placeholder="确认密码">
+                        <div class="error"></div>
+                    </div>
+                </div>
+
+                <div class="row right">
+                    <div class="col-xs-12">
+                        <span class="text light">我已经认真阅读并同意U+</span>
+                        <a href="" class="text dark">《服务条款》</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="button large dark submit" id="submit">下一步</div>
+                    </div>
+                </div>
+            </form>
+            <!--<div class="platform">-->
+            <!--<div class="desc">-->
+            <!--使用社交平台账号快速登录-->
+            <!--</div>-->
+            <!--<div id="login-qq" class="platform-item" title="使用QQ登录">-->
+            <!--<i class="icon icon-qq"></i>-->
+            <!--</div>-->
+            <!--<div id="login-wechat" class="platform-item" title="使用微信登录">-->
+            <!--<i class="icon icon-wechat"></i>-->
+            <!--</div>-->
+        </div>
+    </div>
+</div>
+    @@include('common/com_foot.html')
+    @@include('common/com_nav_js.html')
+<script src="../js/reg-c03b802b52.js"></script>
+<script>
+    if (location.host.indexOf('mubu.io') >= 0) {
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-77727571-1', 'auto');
+        ga('send', 'pageview');
+    }
+</script>
+</body></html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+
+    <title>优家良品</title>
+    <!-- build:css ../css/combineCss/com_head_cb.css -->
+    @@include('common/com_head.html')
+    <!-- endbuild -->
+</head>
+<body>
+<div id="goodcover"></div>
+@@include('common/com_nav.html')
+<div class="bg-login" style="background-image:url(../img/bg_contact.jpg)"></div>
+<div class="mtfixed"></div>
+<div class="container">
+    <div class="reg-wrapper">
+        <h2 style="margin: 30px 0 15px;">400-8606-361</h2>
+        <p class="text-question">我们很乐意为您提供帮助，请问有什么具体问题？</p>
+        <img src="../img/hr.png" alt=""/>
+        <div class="fields">
+            <form id="main-form">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <input type="text" class="text large" name="name" placeholder="姓名">
+                        <div class="error"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <input type="text" class="text large" name="mail" id="mail" placeholder="邮箱">
+                        <div class="error"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <input type="text" class="text large" name="phone" id="phone" placeholder="手机">
+                        <div class="error"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <textarea class="text" style="height: auto;width: 100%" rows="5" name="feedback" placeholder="反馈"></textarea>
+                        <div class="error"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="button large dark submit" id="submit">提交</div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+    @@include('common/com_foot.html')
+    @@include('common/com_nav_js.html')
+    <script src="../js/reg-c03b802b52.js"></script>
+</body>
+</html>
